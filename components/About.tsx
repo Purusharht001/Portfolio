@@ -37,9 +37,9 @@ const About = () => {
     {
       level: '3rd Year B.Tech',
       school: 'VIT Chennai',
-      major: 'Computer Science',
+      major: 'Computer Science and Engineering',
       location: 'Kelambakkam, Tamil Nadu',
-      year: '2022-2025',
+      year: '2023-2026',
     },
   ]
 
@@ -67,9 +67,8 @@ const About = () => {
 
         {/* Bio */}
         <div
-          className={`mb-12 transform transition-all duration-1000 ${
-            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-          }`}
+          className={`mb-12 transform transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+            }`}
         >
           <p className="text-lg text-muted-foreground leading-relaxed">
             I'm a passionate Computer Science student at VIT Chennai with a strong foundation in
@@ -82,9 +81,8 @@ const About = () => {
 
         {/* Education Timeline */}
         <div
-          className={`transform transition-all duration-1000 delay-200 ${
-            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-          }`}
+          className={`transform transition-all duration-1000 delay-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+            }`}
         >
           <h3 className="text-2xl font-bold mb-8">Education</h3>
           <div className="space-y-6">

@@ -65,9 +65,8 @@ const Experience = () => {
           {experience.map((exp, index) => (
             <div
               key={index}
-              className={`p-8 bg-background border border-border rounded-lg hover:border-primary transition-all duration-300 hover:shadow-lg hover:shadow-primary/20 transform ${
-                isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-              }`}
+              className={`p-8 bg-background border border-border rounded-lg hover:border-primary transition-all duration-300 hover:shadow-lg hover:shadow-primary/20 transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+                }`}
               style={{
                 transitionDelay: isVisible ? `${index * 200}ms` : '0',
               }}

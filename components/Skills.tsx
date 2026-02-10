@@ -98,11 +98,10 @@ const Skills = () => {
             return (
               <div
                 key={index}
-                className={`group p-6 bg-card border border-border rounded-lg hover:border-primary transition-all duration-300 hover:shadow-lg hover:shadow-primary/20 transform ${
-                  isVisible
+                className={`group p-6 bg-card border border-border rounded-lg hover:border-primary transition-all duration-300 hover:shadow-lg hover:shadow-primary/20 transform ${isVisible
                     ? 'opacity-100 translate-y-0'
                     : 'opacity-0 translate-y-10'
-                }`}
+                  }`}
                 style={{
                   transitionDelay: isVisible ? `${index * 100}ms` : '0',
                 }}

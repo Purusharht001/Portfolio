@@ -101,9 +101,8 @@ const Hero = () => {
       <div className="relative z-10 max-w-4xl mx-auto text-center">
         {/* Label */}
         <div
-          className={`transform transition-all duration-1000 ${
-            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-          }`}
+          className={`transform transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+            }`}
         >
           <p className="text-xs sm:text-sm uppercase tracking-widest text-gray-400 mb-4 font-medium">
             Full-Stack Developer
@@ -112,9 +111,8 @@ const Hero = () => {
 
         {/* Main Greeting */}
         <div
-          className={`transform transition-all duration-1000 delay-100 ${
-            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-          }`}
+          className={`transform transition-all duration-1000 delay-100 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+            }`}
         >
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-balance mb-6 text-white">
             Purusharth{' '}
@@ -126,9 +124,8 @@ const Hero = () => {
 
         {/* Subtitle */}
         <div
-          className={`transform transition-all duration-1000 delay-200 ${
-            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-          }`}
+          className={`transform transition-all duration-1000 delay-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+            }`}
         >
           <p className="text-lg sm:text-xl text-gray-300 mb-8">
             Computer Science Student & Full-Stack Developer
@@ -137,9 +134,8 @@ const Hero = () => {
 
         {/* Description */}
         <div
-          className={`transform transition-all duration-1000 delay-300 ${
-            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-          }`}
+          className={`transform transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+            }`}
         >
           <p className="text-base sm:text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
             I build efficient, scalable, and user-friendly digital experiences. From complex
@@ -149,13 +145,12 @@ const Hero = () => {
 
         {/* CTA Buttons */}
         <div
-          className={`flex flex-col sm:flex-row gap-4 justify-center mb-16 transform transition-all duration-1000 delay-400 ${
-            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-          }`}
+          className={`flex flex-col sm:flex-row gap-4 justify-center mb-16 transform transition-all duration-1000 delay-400 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+            }`}
         >
           <a
-            href="/Abhishek_Singh_Resume.pdf"
-            download="Abhishek_Singh_Resume.pdf"
+            href="/Purusharth_Kumar_resume.pdf"
+            download="Purusharth_Kumar_resume.pdf"
             className="inline-flex items-center justify-center px-8 py-3 bg-green-500 text-black rounded-lg hover:bg-green-400 transition-all duration-300 font-semibold group hover:scale-105"
           >
             <Download className="w-4 h-4 mr-2" />
@@ -171,9 +166,8 @@ const Hero = () => {
 
         {/* Social Links */}
         <div
-          className={`flex gap-6 justify-center transform transition-all duration-1000 delay-500 ${
-            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-          }`}
+          className={`flex gap-6 justify-center transform transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+            }`}
         >
           <a
             href="https://github.com/Purusharht001"
@@ -194,7 +188,7 @@ const Hero = () => {
             <Linkedin className="w-6 h-6" />
           </a>
           <a
-            href="mailto:purusharth@example.com"
+            href="mailto:purusharthkumar801@gmail.com"
             className="p-3 bg-white/5 border border-white/20 rounded-full text-white hover:text-cyan-400 hover:border-cyan-400 hover:bg-white/10 transition-all duration-300 hover:scale-110 backdrop-blur-sm"
             aria-label="Email"
           >

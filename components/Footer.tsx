@@ -20,7 +20,7 @@ const Footer = () => {
     },
     {
       icon: Mail,
-      href: 'mailto:purusharth@example.com',
+      href: 'mailto:purusharthkumar801@gmail.com',
       label: 'Email',
     },
   ]
@@ -105,7 +105,7 @@ const Footer = () => {
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
           {/* Copyright */}
           <p className="text-muted-foreground text-sm">
-            © 2024 Purusharth Kumar. All rights reserved.
+            © 2026 Purusharth Kumar. All rights reserved.
           </p>
 
           {/* Back to Top Button */}
