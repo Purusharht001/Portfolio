@@ -26,13 +26,13 @@ const About = () => {
       level: '10th Grade',
       school: 'Raja Rammohan Roy Academy',
       location: 'Dehradun',
-      year: '2019',
+      year: '2020',
     },
     {
       level: '12th Grade',
       school: 'Central Public School',
       location: 'Chapra',
-      year: '2021',
+      year: '2022',
     },
     {
       level: '3rd Year B.Tech',
